@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Fizika</title>
 </head>
 <body>
@@ -22,16 +25,20 @@
 
         <form id="form" action="#">
             <label for="fizika">Terület megnevezése</label><br>
-            <input type="text" id="fizika" name="fizika"><br><br>
+            <input type="text" id="fizika" name="fizika"><br>
+            <div class="error"></div><br>
     
             <label for="ido">Időszak:</label><br>
-            <input type="text" id="ido" name="ido"><br><br>
+            <input type="text" id="ido" name="ido"><br>
+            <div class="error"></div><br>
     
             <label for="tudos1">Első tudós:</label><br>
-            <input type="text" id="tudos1" name="tudos1"><br><br>
+            <input type="text" id="tudos1" name="tudos1"><br>
+            <div class="error"></div><br>
 
             <label for="tudos2">Második tudós:</label><br>
-            <input type="text" id="tudos2" name="tudos2"><br><br>
+            <input type="text" id="tudos2" name="tudos2"><br>
+            <div class="error"></div><br>
     
             <button>Hozzáadás</button>
         </form>

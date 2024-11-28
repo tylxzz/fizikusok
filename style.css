@@ -1,0 +1,22 @@
+table, tr, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: purple;
+}
+
+tr:nth-child(odd) {
+    background-color: green;
+}
+
+tr:nth-child(even) {
+    background-color: blue;
+}
+
+.error {
+    color: red;
+    border: 1px solid black; 
+}
